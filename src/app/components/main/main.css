@@ -1,0 +1,39 @@
+.main {
+    margin: 16px;
+    
+    @media (min-width: 426px) {
+        margin: 100px 50px;
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+}
+
+.description {
+    font-size: 1.1rem;
+    line-height: 1.4;
+}
+
+.description .title {
+    font-family: 'Permanent Marker', cursive;
+    color: #F0B90B;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.description p {
+    margin-bottom: 1rem;
+    color: #bcbcbc
+}
+
+.description .color-text {
+    color: #d2a200;
+}
+
+.description-image img {
+    width: 100%;
+    height: auto;
+    mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 75%);
+  -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 75%);
+}
